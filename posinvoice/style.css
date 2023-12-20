@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 8px;  
+    color: #000;
+}
+
+.invoice{
+    width: 80mm;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 3mm;
+    overflow: hidden;
+}
+
+.logo{
+    align-items: center;
+    width: 78mm;
+    display:flex
+}
+
+.head{
+    margin-top: 20px;
+    text-align : center;
+    letter-spacing: -1px;
+    line-height: 0.9;
+    white-space: nowrap;
+    width: 100%;
+    
+}
+
+.bar{
+    background-color: black;
+    color: bisque;
+    text-align: center;
+}
+
+.content1{
+    text-align: left;
+    letter-spacing: -0.5px;
+}
+
+.content2{
+    letter-spacing: -0.5px;
+    white-space: nowrap;
+}
+
+.line {
+    width: 100%;
+    margin: 5px 0;
+    height: 1px;
+    background: repeating-linear-gradient(to right, rgba(73, 63, 63, 0.798) 0, rgba(73, 63, 63, 0.798) 5px, transparent 7px, transparent 7px) 
+  }
+
+.table {
+    display:table;
+    width:100%;
+}
+.tr {
+    display:table-row;
+}
+.d1 {
+    display:table-cell;
+    width:25%;
+}
+.d2 {
+    display:table-cell;
+    text-align:center;
+    width:50%;
+}
+.d3 {
+    display:table-cell;
+    text-align:justify;
+    width:25%;
+}
+
+.d4{
+    display: table-cell;
+    text-align: right;
+}
+
+.qr{
+    padding-top: 15px;
+    padding-left: 29px;
+}
+
+.content4{
+    letter-spacing: -0.5px;
+    font-weight: lighter;
+}
+
+.content5{
+    text-align: center;
+    line-height: -0.4px;
+}
