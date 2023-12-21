@@ -64,6 +64,7 @@ body{
 .table {
     display:table;
     width:100%;
+    border-spacing: -8px;
 }
 .tr {
     display:table-row;
@@ -93,7 +94,7 @@ body{
     padding-left: 29px;
     margin-bottom: 20px;
     width: 180px;
-    height: 200px;
+    height: 170px;
 }
 
 .content4{
