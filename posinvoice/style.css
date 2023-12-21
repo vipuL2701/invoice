@@ -38,8 +38,9 @@ body{
     line-height: 12px;
     font-size: 20px;
     margin-top: 34px;
-    letter-spacing: -10px;
+    letter-spacing: -8px;
     font-family: monospace;
+    margin-right: 2px;
 }
 
 .content1{
@@ -65,9 +66,7 @@ body{
     display:table;
     width:100%;
     border-spacing: -8px;
-}
-.tr {
-    display:table-row;
+   
 }
 .d1 {
     display:table-cell;
