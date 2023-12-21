@@ -38,6 +38,8 @@ body{
     line-height: 12px;
     font-size: 20px;
     margin-top: 34px;
+    letter-spacing: -10px;
+    font-family: monospace;
 }
 
 .content1{
@@ -55,7 +57,7 @@ body{
 .line {
     width: 100%;
     margin: 5px 0;
-    height: 1px;
+    height: 0.7px;
     background: repeating-linear-gradient(to right, rgba(73, 63, 63, 0.798) 0, rgba(73, 63, 63, 0.798) 5px, transparent 7px, transparent 7px) 
   }
 
@@ -87,7 +89,7 @@ body{
 }
 
 .qr{
-    padding-top: 4px;
+    padding-top: 17px;
     padding-left: 29px;
     margin-bottom: 20px;
     width: 180px;
